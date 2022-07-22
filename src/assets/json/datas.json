@@ -1,0 +1,212 @@
+[
+    {
+      "index": "0",
+      "question": "Vue.js dan foydalanishning afzalliklari nimada?",
+      "option": [
+        {
+          "typeA": "Osonlik bilan tushunarli - Ushbu ramkaning mashhurligining sabablaridan biri shundaki, uni tushunish juda oson. Foydalanuvchilar oddiy tuzilishi tufayli Vue.js-ni veb-loyihalariga osongina qo'shishlari mumkin.",
+          "isTrueA": 0,
+          "isTrue": false
+        },
+        {
+          "typeB": "Virtual DOM - U virtual DOM-dan ReactJS, Ember va boshqalar kabi boshqa mavjud ramkalar kabi foydalanishga qodir. Virtual DOM asl HTML DOM ning xotiradagi engil daraxt tasviri hisoblanadi va asl nusxaga ta'sir qilmasdan yangilanadi.",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "Yuqoridagilarning barchasi",
+          "isTrueC": true,
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "question": "Quyidagi direktivalardan qaysi biri metodlarni chaqiruvchi hodisalarga biriktirish uchun ishlatiladi?",
+      "option": [
+        {
+          "typeA": "v-for",
+          "isTrueA": 0,
+          "isTrue": false
+        },
+        {
+          "typeB": "v-on",
+          "isTrueB": true,
+          "isTrue": true
+        },
+        {
+          "typeC": "v-bind",
+          "isTrueC": false,
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Qaysi ma'lumotlarni bog'lovchi interpolyatsiya odatda 'Mo'ylov' sintaksisi sifatida tanilgan?",
+      "option": [
+        {
+          "typeA": "[]",
+          "isTrueA": false,
+          "isTrue": true
+        },
+        {
+          "typeB": "{{}}",
+          "isTrueB": true,
+          "isTrue": false
+        },
+        {
+          "typeC": "`${}`",
+          "isTrueC": 0,
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Vue.js da for loop qanday ishlatiladi?",
+      "option": [
+        {
+          "typeA": "vFor",
+          "isTrueA": false,
+          "isTrue": false
+        },
+        {
+          "typeB": "*v-for",
+          "isTrueB": 0,
+          "isTrue": false
+        },
+        {
+          "typeC": "v-for",
+          "isTrueC": true,
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "V-html va v-text o'rtasidagi farq nima?",
+      "option": [
+        {
+          "typeA": "v-text tugunning matn mazmunini o'rnatadi",
+          "isTrueA": 0,
+          "isTrue": false
+        },
+        {
+          "typeB": "v-html elementning ichki HTML-ni o'rnatadi",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "Yuqoridagi ikki variant to'gri",
+          "isTrueC": true,
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Vue cli-ni global miqyosda o'rnatishning to'g'ri usuli qanday?",
+      "option": [
+        {
+          "typeA": "npm install -g @vue/cli",
+          "isTrueA": true,
+          "isTrue": true
+        },
+        {
+          "typeB": "npm install vue-cli /g",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "npm -i @vue/cli /g",
+          "isTrueC": 0,
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Bir yoki bir nechta atributlarni yoki komponent xususiyatini ifodaga dinamik ravishda ulash uchun nima ishlatiladi?",
+      "option": [
+        {
+          "typeA": "v-pre",
+          "isTrueA": false,
+          "isTrue": false
+        },
+        {
+          "typeB": "v-bind",
+          "isTrueB": true,
+          "isTrue": true
+        },
+        {
+          "typeC": "v-dy",
+          "isTrueC": 0,
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quyidagilardan qaysi biri lifesycle hoookga kirmaydi?",
+      "option": [
+        {
+          "typeA": "created",
+          "isTrueA": 0,
+          "isTrue": false
+        },
+        {
+          "typeB": "beforeMount",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "didMount",
+          "isTrueC": true,
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "V-show va v-if direktivalari o'rtasidagi farq nima?",
+      "option": [
+        {
+          "typeA": "v-if agar qiymat rost bo'lganda contentni ko'rsatadi, agar yolg'on bo'lsa contentni DOmga yuklamaydi, v-show ham rost bo'lsa ko'rasatadi, lekin qiymat yolg'on bo'lganda contentni DOMga yuklaydi",
+          "isTrueA": true,
+          "isTrue": true
+        },
+        {
+          "typeB": "V-if ifoda yolg'on bo'lganda contentni Css xususiyat orqali ekranga chiqarmaydi(display xossasi orqali)",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "Ular orasida farq kuzatilmaydi",
+          "isTrueC": 0,
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "V-model direktivasi ...",
+      "option": [
+        {
+          "typeA": "Ikki tomonlama ma'lumotlarni ulash, bu erda ilovaning ko'rinishi (UI) qismi ma'lumotlar modeli o'zgartirilganda avtomatik ravishda yangilanadi.",
+          "isTrueA": true,
+          "isTrue": true
+        },
+        {
+          "typeB": "Ilovaning ko'rinishi (UI) qismi avtomatik ravishda yangilanmaydigan bir tomonlama ma'lumotlarni ulash. Ma'lumotlar modeli har safar o'zgartirilganda uni yangilash uchun ba'zi maxsus kodlar yozilishi kerak.",
+          "isTrueB": false,
+          "isTrue": false
+        },
+        {
+          "typeC": "ma'lumotlar modeli o'zgartirilganda ilovaning ko'rinishi (UI) qismi avtomatik ravishda yangilanadigan ma'lumotlarni bir tomonlama bog'lash.",
+          "isTrueC": 0,
+          "isTrue": false
+        }
+      ]
+    }
+  ]
